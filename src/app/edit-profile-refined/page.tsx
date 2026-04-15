@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 export default function EditProfileBotanicalAtelierRefined() {
   return (
     <>
@@ -66,16 +67,16 @@ export default function EditProfileBotanicalAtelierRefined() {
 <div className="flex-1 w-full space-y-10">
 <div className="relative border-b border-outline/20 pb-2 transition-all group">
 <label className="block font-label text-[10px] uppercase tracking-[0.2em] text-on-surface-variant mb-2 font-bold">Full Name</label>
-<input className="w-full bg-transparent border-none p-0 text-xl font-headline text-primary focus:ring-0" type="text" value="Elena Thorne"/>
+<input className="w-full bg-transparent border-none p-0 text-xl font-headline text-primary focus:ring-0" type="text" defaultValue="Elena Thorne"/>
 </div>
 <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
 <div className="relative border-b border-outline/20 pb-2 transition-all">
 <label className="block font-label text-[10px] uppercase tracking-[0.2em] text-on-surface-variant mb-2 font-bold">Birth Date</label>
-<input className="w-full bg-transparent border-none p-0 text-lg text-on-surface focus:ring-0" type="text" value="March 12, 1994"/>
+<input className="w-full bg-transparent border-none p-0 text-lg text-on-surface focus:ring-0" type="text" defaultValue="March 12, 1994"/>
 </div>
 <div className="relative border-b border-outline/20 pb-2 transition-all">
 <label className="block font-label text-[10px] uppercase tracking-[0.2em] text-on-surface-variant mb-2 font-bold">Location</label>
-<input className="w-full bg-transparent border-none p-0 text-lg text-on-surface focus:ring-0" type="text" value="Portland, Oregon"/>
+<input className="w-full bg-transparent border-none p-0 text-lg text-on-surface focus:ring-0" type="text" defaultValue="Portland, Oregon"/>
 </div>
 </div>
 </div>
@@ -93,16 +94,16 @@ export default function EditProfileBotanicalAtelierRefined() {
 <div className="space-y-12">
 <div className="relative border-b border-outline/20 pb-6">
 <label className="block font-label text-[10px] uppercase tracking-[0.2em] text-on-surface-variant mb-4 font-bold">My Creative Essence</label>
-<textarea className="w-full bg-transparent border-none p-0 text-lg leading-relaxed resize-none text-on-surface focus:ring-0" rows={4}>A curator of quiet moments and wild gardens. I believe in the slow unfolding of stories and the magic found in the details of nature. Seeking someone who appreciates both the silence of a forest and the vibrance of an atelier.</textarea>
+<textarea className="w-full bg-transparent border-none p-0 text-lg leading-relaxed resize-none text-on-surface focus:ring-0" rows={4} defaultValue="A curator of quiet moments and wild gardens. I believe in the slow unfolding of stories and the magic found in the details of nature. Seeking someone who appreciates both the silence of a forest and the vibrance of an atelier." />
 </div>
 <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
 <div className="relative border-b border-outline/20 pb-2">
 <label className="block font-label text-[10px] uppercase tracking-[0.2em] text-on-surface-variant mb-2 font-bold">Ideal Match Resonance</label>
-<input className="w-full bg-transparent border-none p-0 text-lg italic text-on-surface focus:ring-0" type="text" value="Kind, Creative, Grounded"/>
+<input className="w-full bg-transparent border-none p-0 text-lg italic text-on-surface focus:ring-0" type="text" defaultValue="Kind, Creative, Grounded"/>
 </div>
 <div className="relative border-b border-outline/20 pb-2">
 <label className="block font-label text-[10px] uppercase tracking-[0.2em] text-on-surface-variant mb-2 font-bold">Life Philosophy</label>
-<input className="w-full bg-transparent border-none p-0 text-lg italic text-on-surface focus:ring-0" type="text" value="Growth is a patient art."/>
+<input className="w-full bg-transparent border-none p-0 text-lg italic text-on-surface focus:ring-0" type="text" defaultValue="Growth is a patient art."/>
 </div>
 </div>
 </div>
@@ -116,15 +117,15 @@ export default function EditProfileBotanicalAtelierRefined() {
 <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
 <div className="relative border-b border-outline/20 pb-2 transition-all group">
 <label className="block font-label text-[10px] uppercase tracking-[0.2em] text-on-surface-variant mb-2 font-bold">Profession</label>
-<input className="w-full bg-transparent border-none p-0 text-lg text-primary focus:ring-0 font-medium" type="text" value="Landscape Architect"/>
+<input className="w-full bg-transparent border-none p-0 text-lg text-primary focus:ring-0 font-medium" type="text" defaultValue="Landscape Architect"/>
 </div>
 <div className="relative border-b border-outline/20 pb-2 transition-all group">
 <label className="block font-label text-[10px] uppercase tracking-[0.2em] text-on-surface-variant mb-2 font-bold">Company / Studio</label>
-<input className="w-full bg-transparent border-none p-0 text-lg text-primary focus:ring-0 font-medium" type="text" value="Verdant Vistas Design"/>
+<input className="w-full bg-transparent border-none p-0 text-lg text-primary focus:ring-0 font-medium" type="text" defaultValue="Verdant Vistas Design"/>
 </div>
 <div className="md:col-span-2 relative border-b border-outline/20 pb-2 transition-all group">
 <label className="block font-label text-[10px] uppercase tracking-[0.2em] text-on-surface-variant mb-2 font-bold">Purposeful Work Focus</label>
-<input className="w-full bg-transparent border-none p-0 text-lg text-on-surface focus:ring-0" type="text" value="Restoring urban ecosystems through native flora and sustainable sanctuary design."/>
+<input className="w-full bg-transparent border-none p-0 text-lg text-on-surface focus:ring-0" type="text" defaultValue="Restoring urban ecosystems through native flora and sustainable sanctuary design."/>
 </div>
 </div>
 </section>
@@ -220,3 +221,4 @@ export default function EditProfileBotanicalAtelierRefined() {
     </>
   );
 }
+

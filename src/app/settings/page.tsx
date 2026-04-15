@@ -1,20 +1,20 @@
+/* eslint-disable react/no-unescaped-entities */
 export default function UserSettingsBotanicalAtelier() {
   return (
     <>
 
-<div className="fixed inset-0 bg-pattern pointer-events-none" data-alt="Subtle botanical pattern featuring delicate hand-drawn leaves and floral sketches on a warm cream paper texture"></div>
 {/*  Top Navigation  */}
-<nav className="fixed top-0 w-full z-50 bg-[#fbf9f1]/80 dark:bg-[#1b1c17]/80 backdrop-blur-md flex justify-between items-center px-12 py-6 max-w-screen-2xl mx-auto">
-<div className="text-2xl font-serif italic text-[#163422] dark:text-[#ffe088]">Botanical Atelier</div>
+<nav className="fixed top-0 w-full z-50 bg-surface/80 dark:bg-[#1b1c17]/80 backdrop-blur-md flex justify-between items-center px-12 py-6 max-w-screen-2xl mx-auto">
+<div className="text-2xl font-serif italic text-primary dark:text-secondary-fixed">Botanical Atelier</div>
 <div className="hidden md:flex items-center gap-10 font-noto-serif text-sm tracking-widest uppercase">
-<a className="text-[#424843] dark:text-[#c2c8c0] hover:text-[#163422] dark:hover:text-[#ffe088] transition-colors duration-300" href="#">Discover</a>
-<a className="text-[#424843] dark:text-[#c2c8c0] hover:text-[#163422] dark:hover:text-[#ffe088] transition-colors duration-300" href="#">Matches</a>
-<a className="text-[#424843] dark:text-[#c2c8c0] hover:text-[#163422] dark:hover:text-[#ffe088] transition-colors duration-300" href="#">Messages</a>
-<a className="text-[#163422] dark:text-[#ffe088] border-b border-[#ffe088] pb-1" href="#">Ceremonies</a>
+<a className="text-on-surface-variant dark:text-[#c2c8c0] hover:text-primary dark:hover:text-secondary-fixed transition-colors duration-300" href="#">Discover</a>
+<a className="text-on-surface-variant dark:text-[#c2c8c0] hover:text-primary dark:hover:text-secondary-fixed transition-colors duration-300" href="#">Matches</a>
+<a className="text-on-surface-variant dark:text-[#c2c8c0] hover:text-primary dark:hover:text-secondary-fixed transition-colors duration-300" href="#">Messages</a>
+<a className="text-primary dark:text-secondary-fixed border-b border-[#ffe088] pb-1" href="#">Ceremonies</a>
 </div>
 <div className="flex items-center gap-6">
-<span className="material-symbols-outlined text-[#163422] cursor-pointer hover:scale-95 duration-200">notifications</span>
-<span className="material-symbols-outlined text-[#163422] cursor-pointer hover:scale-95 duration-200">favorite</span>
+<span className="material-symbols-outlined text-primary cursor-pointer hover:scale-95 duration-200">notifications</span>
+<span className="material-symbols-outlined text-primary cursor-pointer hover:scale-95 duration-200">favorite</span>
 <div className="w-10 h-10 rounded-full overflow-hidden border-2 border-outline-variant/20">
 <img alt="User profile avatar" data-alt="High-end editorial close-up portrait of an elegant woman with a gentle expression in soft natural lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDvwHaYhcFuTs_UQWKk2FgreHg63oX-3Ufy0LnLTBtYlUq8adJm6NcF8fmpSGZnvpOwpxAz78-C7KKZaQMfHqytgHk_aYSdXL78hs_zsmqRcArVg7juvTbHqQ0GtrMPeRHMEsPXqjCNVbnI_qYPdV0nJyqbcdQfa2oKKUlKByMHIMVQ5owMmugXA_ausKCnNmK9DMKk0K1dodRtHa5C-A0dqLbsYxqUyTpMFH0oSGgF-NPwmAhMWeMQhf7KjHzrPgOuCvE-DpQHpIY"/>
 </div>
@@ -155,13 +155,13 @@ export default function UserSettingsBotanicalAtelier() {
 <div className="space-y-2">
 <label className="text-xs font-bold uppercase tracking-widest text-on-surface-variant">Email Address</label>
 <div className="relative">
-<input className="w-full bg-transparent border-0 border-b border-outline/30 focus:border-secondary focus:ring-0 py-3 text-on-surface transition-colors" type="email" value="eleanor.vance@atelier.com"/>
+<input className="w-full bg-transparent border-0 border-b border-outline/30 focus:border-secondary focus:ring-0 py-3 text-on-surface transition-colors" type="email" defaultValue="eleanor.vance@atelier.com"/>
 <span className="material-symbols-outlined absolute right-0 top-3 text-primary/40 text-sm">lock</span>
 </div>
 </div>
 <div className="space-y-2">
 <label className="text-xs font-bold uppercase tracking-widest text-on-surface-variant">Phone Number</label>
-<input className="w-full bg-transparent border-0 border-b border-outline/30 focus:border-secondary focus:ring-0 py-3 text-on-surface transition-colors" type="tel" value="+33 6 12 34 56 78"/>
+<input className="w-full bg-transparent border-0 border-b border-outline/30 focus:border-secondary focus:ring-0 py-3 text-on-surface transition-colors" type="tel" defaultValue="+33 6 12 34 56 78"/>
 </div>
 <div className="space-y-2">
 <label className="text-xs font-bold uppercase tracking-widest text-on-surface-variant">Display Language</label>
@@ -221,16 +221,16 @@ export default function UserSettingsBotanicalAtelier() {
 </div>
 </section>
 </main>
-<footer className="w-full border-t border-[#c2c8c0]/15 bg-[#f0eee6] dark:bg-[#1b1c17] mt-12">
+<footer className="w-full border-t border-[#c2c8c0]/15 bg-surface-container dark:bg-[#1b1c17] mt-12">
 <div className="flex flex-col md:flex-row justify-between items-center px-12 py-16 gap-8 w-full max-w-screen-2xl mx-auto">
-<div className="text-xl font-serif text-[#163422] dark:text-[#ffe088]">Botanical Atelier</div>
+<div className="text-xl font-serif text-primary dark:text-secondary-fixed">Botanical Atelier</div>
 <div className="flex flex-wrap justify-center gap-10 font-manrope text-sm tracking-normal">
-<a className="text-[#424843] dark:text-[#c2c8c0] hover:text-[#163422] dark:hover:text-[#ffe088] transition-opacity" href="#">Our Story</a>
-<a className="text-[#424843] dark:text-[#c2c8c0] hover:text-[#163422] dark:hover:text-[#ffe088] transition-opacity" href="#">Privacy Policy</a>
-<a className="text-[#424843] dark:text-[#c2c8c0] hover:text-[#163422] dark:hover:text-[#ffe088] transition-opacity" href="#">Terms of Service</a>
-<a className="text-[#424843] dark:text-[#c2c8c0] hover:text-[#163422] dark:hover:text-[#ffe088] transition-opacity" href="#">Contact Us</a>
+<a className="text-on-surface-variant dark:text-[#c2c8c0] hover:text-primary dark:hover:text-secondary-fixed transition-opacity" href="#">Our Story</a>
+<a className="text-on-surface-variant dark:text-[#c2c8c0] hover:text-primary dark:hover:text-secondary-fixed transition-opacity" href="#">Privacy Policy</a>
+<a className="text-on-surface-variant dark:text-[#c2c8c0] hover:text-primary dark:hover:text-secondary-fixed transition-opacity" href="#">Terms of Service</a>
+<a className="text-on-surface-variant dark:text-[#c2c8c0] hover:text-primary dark:hover:text-secondary-fixed transition-opacity" href="#">Contact Us</a>
 </div>
-<div className="text-[#424843] dark:text-[#c2c8c0] text-sm opacity-80">
+<div className="text-on-surface-variant dark:text-[#c2c8c0] text-sm opacity-80">
                 © 2024 Botanical Atelier Matrimony. All rights reserved.
             </div>
 </div>
@@ -239,3 +239,4 @@ export default function UserSettingsBotanicalAtelier() {
     </>
   );
 }
+

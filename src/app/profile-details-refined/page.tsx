@@ -1,3 +1,4 @@
+﻿/* eslint-disable react/no-unescaped-entities */
 export default function ProfileDetailsBotanicalAtelierRefined() {
   return (
     <>
@@ -234,7 +235,7 @@ export default function ProfileDetailsBotanicalAtelierRefined() {
 </div>
 </div>
 <div className="mt-16 pt-8 border-t border-outline-variant/20 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] tracking-widest uppercase font-bold text-on-surface-variant opacity-50">
-<p>© 2024 Botanical Atelier Matrimony</p>
+<p>Â© 2024 Botanical Atelier Matrimony</p>
 <p>Handcrafted for intentional souls</p>
 </div>
 </div>

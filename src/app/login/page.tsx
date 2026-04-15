@@ -1,8 +1,8 @@
+﻿/* eslint-disable react/no-unescaped-entities */
 export default function LoginBotanicalAtelier() {
   return (
     <>
 
-<div className="fixed inset-0 bg-pattern opacity-[0.04] pointer-events-none"></div>
 <main className="w-full max-w-[1440px] mx-auto min-h-[800px] flex overflow-hidden lg:rounded-xl lg:m-8 lg:shadow-[0_20px_40px_rgba(22,52,34,0.06)] bg-surface-container-lowest relative z-10">
 <section className="hidden lg:flex w-1/2 relative overflow-hidden bg-primary items-end p-20">
 <div className="absolute inset-0 z-0">
@@ -55,7 +55,7 @@ export default function LoginBotanicalAtelier() {
 </div>
 <div className="relative group">
 <label className="block text-[10px] font-label font-bold tracking-[0.15em] text-on-surface-variant uppercase mb-1 transition-colors group-focus-within:text-secondary">Password</label>
-<input className="w-full bg-transparent border-0 border-b border-outline/30 focus:ring-0 focus:border-secondary py-3 px-0 font-body text-on-surface placeholder:text-outline-variant transition-all" placeholder="••••••••" type="password"/>
+<input className="w-full bg-transparent border-0 border-b border-outline/30 focus:ring-0 focus:border-secondary py-3 px-0 font-body text-on-surface placeholder:text-outline-variant transition-all" placeholder="â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢" type="password"/>
 <button className="absolute right-0 bottom-3 text-outline-variant hover:text-primary transition-colors" type="button">
 <span className="material-symbols-outlined text-sm">visibility</span>
 </button>

@@ -1,8 +1,9 @@
+﻿/* eslint-disable react/no-unescaped-entities */
 export default function SignUpBotanicalAtelier() {
   return (
     <>
 
-<main className="min-h-screen flex flex-col md:flex-row overflow-hidden relative botanical-bg bg-opacity-5">
+<main className="min-h-screen flex flex-col md:flex-row overflow-hidden relative bg-opacity-5">
 {/*  Left Side: Brand Message & Visuals  */}
 <section className="hidden md:flex md:w-5/12 bg-primary relative flex-col justify-between p-16 text-on-primary overflow-hidden">
 <div className="absolute inset-0 opacity-20 pointer-events-none">
@@ -27,7 +28,7 @@ export default function SignUpBotanicalAtelier() {
 </div>
 <div className="relative z-10">
 <footer className="text-xs font-label uppercase tracking-[0.2em] opacity-50">
-                    © 2024 Botanical Atelier Matrimony
+                    Â© 2024 Botanical Atelier Matrimony
                 </footer>
 </div>
 </section>
@@ -101,7 +102,7 @@ export default function SignUpBotanicalAtelier() {
 <div className="group relative">
 <label className="block text-[10px] font-label font-bold uppercase tracking-widest text-outline transition-colors group-focus-within:text-secondary mb-1">Create Password</label>
 <div className="flex items-center">
-<input className="flex-1 bg-transparent border-0 border-b border-outline-variant py-3 px-0 focus:ring-0 focus:border-secondary transition-all placeholder:text-surface-variant" placeholder="••••••••••••" type="password"/>
+<input className="flex-1 bg-transparent border-0 border-b border-outline-variant py-3 px-0 focus:ring-0 focus:border-secondary transition-all placeholder:text-surface-variant" placeholder="â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢" type="password"/>
 <span className="material-symbols-outlined text-outline-variant cursor-pointer ml-2 hover:text-primary transition-colors">visibility</span>
 </div>
 </div>
@@ -151,7 +152,7 @@ export default function SignUpBotanicalAtelier() {
 <a className="text-xs font-label uppercase tracking-widest text-outline hover:text-primary transition-colors" href="#">Support</a>
 </div>
 <div className="text-[10px] font-label text-outline uppercase tracking-widest">
-                © 2024 Botanical Atelier Matrimony. All rights reserved.
+                Â© 2024 Botanical Atelier Matrimony. All rights reserved.
             </div>
 </div>
 </footer>

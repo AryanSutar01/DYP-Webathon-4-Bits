@@ -1,3 +1,4 @@
+﻿/* eslint-disable react/no-unescaped-entities */
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
@@ -25,13 +26,13 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} antialiased`}
     >
       <head>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
       </head>
-      <body className="min-h-full flex flex-col bg-surface font-body text-on-surface selection:bg-secondary-fixed">{children}</body>
+      <body className="min-h-screen flex flex-col bg-surface font-body text-on-surface selection:bg-secondary-fixed">{children}</body>
     </html>
   );
 }

@@ -1,16 +1,17 @@
+/* eslint-disable react/no-unescaped-entities */
 export default function EditProfileBotanicalAtelier() {
   return (
     <>
 
 {/*  TopNavBar  */}
-<nav className="bg-[#fbf9f1]/80 dark:bg-[#1b1c17]/80 backdrop-blur-md fixed top-0 w-full z-50">
+<nav className="bg-surface/80 dark:bg-[#1b1c17]/80 backdrop-blur-md fixed top-0 w-full z-50">
 <div className="flex justify-between items-center px-12 py-6 max-w-screen-2xl mx-auto">
-<div className="text-2xl font-serif italic text-[#163422] dark:text-[#ffe088]">Botanical Atelier</div>
+<div className="text-2xl font-serif italic text-primary dark:text-secondary-fixed">Botanical Atelier</div>
 <div className="hidden md:flex items-center space-x-8">
-<a className="font-noto-serif text-sm tracking-widest uppercase text-[#424843] dark:text-[#c2c8c0] hover:text-[#163422] dark:hover:text-[#ffe088] transition-colors duration-300" href="#">Discover</a>
-<a className="font-noto-serif text-sm tracking-widest uppercase text-[#424843] dark:text-[#c2c8c0] hover:text-[#163422] dark:hover:text-[#ffe088] transition-colors duration-300" href="#">Matches</a>
-<a className="font-noto-serif text-sm tracking-widest uppercase text-[#424843] dark:text-[#c2c8c0] hover:text-[#163422] dark:hover:text-[#ffe088] transition-colors duration-300" href="#">Messages</a>
-<a className="font-noto-serif text-sm tracking-widest uppercase text-[#424843] dark:text-[#c2c8c0] hover:text-[#163422] dark:hover:text-[#ffe088] transition-colors duration-300" href="#">Ceremonies</a>
+<a className="font-noto-serif text-sm tracking-widest uppercase text-on-surface-variant dark:text-[#c2c8c0] hover:text-primary dark:hover:text-secondary-fixed transition-colors duration-300" href="#">Discover</a>
+<a className="font-noto-serif text-sm tracking-widest uppercase text-on-surface-variant dark:text-[#c2c8c0] hover:text-primary dark:hover:text-secondary-fixed transition-colors duration-300" href="#">Matches</a>
+<a className="font-noto-serif text-sm tracking-widest uppercase text-on-surface-variant dark:text-[#c2c8c0] hover:text-primary dark:hover:text-secondary-fixed transition-colors duration-300" href="#">Messages</a>
+<a className="font-noto-serif text-sm tracking-widest uppercase text-on-surface-variant dark:text-[#c2c8c0] hover:text-primary dark:hover:text-secondary-fixed transition-colors duration-300" href="#">Ceremonies</a>
 </div>
 <div className="flex items-center space-x-6">
 <span className="material-symbols-outlined text-primary cursor-pointer scale-95 duration-200 ease-in-out">notifications</span>
@@ -71,16 +72,16 @@ export default function EditProfileBotanicalAtelier() {
 <div className="flex-1 w-full space-y-8">
 <div className="relative border-b border-outline/30 pb-2 transition-all group">
 <label className="block font-label text-[10px] uppercase tracking-[0.15em] text-on-surface-variant mb-1">Full Name</label>
-<input className="w-full bg-transparent border-none p-0 text-xl font-headline text-primary" type="text" value="Elena Thorne"/>
+<input className="w-full bg-transparent border-none p-0 text-xl font-headline text-primary" type="text" defaultValue="Elena Thorne"/>
 </div>
 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
 <div className="relative border-b border-outline/30 pb-2 transition-all">
 <label className="block font-label text-[10px] uppercase tracking-[0.15em] text-on-surface-variant mb-1">Birth Date</label>
-<input className="w-full bg-transparent border-none p-0 text-lg" type="text" value="March 12, 1994"/>
+<input className="w-full bg-transparent border-none p-0 text-lg" type="text" defaultValue="March 12, 1994"/>
 </div>
 <div className="relative border-b border-outline/30 pb-2 transition-all">
 <label className="block font-label text-[10px] uppercase tracking-[0.15em] text-on-surface-variant mb-1">Location</label>
-<input className="w-full bg-transparent border-none p-0 text-lg" type="text" value="Portland, Oregon"/>
+<input className="w-full bg-transparent border-none p-0 text-lg" type="text" defaultValue="Portland, Oregon"/>
 </div>
 </div>
 </div>
@@ -98,16 +99,16 @@ export default function EditProfileBotanicalAtelier() {
 <div className="space-y-10">
 <div className="relative border-b border-outline/30 pb-4">
 <label className="block font-label text-[10px] uppercase tracking-[0.15em] text-on-surface-variant mb-3">About My Soul</label>
-<textarea className="w-full bg-transparent border-none p-0 text-lg leading-relaxed resize-none" rows={4}>A curator of quiet moments and wild gardens. I believe in the slow unfolding of stories and the magic found in the details of nature. Seeking someone who appreciates both the silence of a forest and the vibrance of an atelier.</textarea>
+<textarea className="w-full bg-transparent border-none p-0 text-lg leading-relaxed resize-none" rows={4} defaultValue="A curator of quiet moments and wild gardens. I believe in the slow unfolding of stories and the magic found in the details of nature. Seeking someone who appreciates both the silence of a forest and the vibrance of an atelier." />
 </div>
 <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
 <div className="relative border-b border-outline/30 pb-2">
 <label className="block font-label text-[10px] uppercase tracking-[0.15em] text-on-surface-variant mb-1">Ideal Match Essence</label>
-<input className="w-full bg-transparent border-none p-0 text-lg italic" type="text" value="Kind, Creative, Grounded"/>
+<input className="w-full bg-transparent border-none p-0 text-lg italic" type="text" defaultValue="Kind, Creative, Grounded"/>
 </div>
 <div className="relative border-b border-outline/30 pb-2">
 <label className="block font-label text-[10px] uppercase tracking-[0.15em] text-on-surface-variant mb-1">Life Philosophy</label>
-<input className="w-full bg-transparent border-none p-0 text-lg italic" type="text" value="Growth is a patient art."/>
+<input className="w-full bg-transparent border-none p-0 text-lg italic" type="text" defaultValue="Growth is a patient art."/>
 </div>
 </div>
 </div>
@@ -121,15 +122,15 @@ export default function EditProfileBotanicalAtelier() {
 <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
 <div className="relative border-b border-outline/30 pb-2 transition-all group">
 <label className="block font-label text-[10px] uppercase tracking-[0.15em] text-on-surface-variant mb-1">Profession</label>
-<input className="w-full bg-transparent border-none p-0 text-lg text-primary" type="text" value="Landscape Architect"/>
+<input className="w-full bg-transparent border-none p-0 text-lg text-primary" type="text" defaultValue="Landscape Architect"/>
 </div>
 <div className="relative border-b border-outline/30 pb-2 transition-all group">
 <label className="block font-label text-[10px] uppercase tracking-[0.15em] text-on-surface-variant mb-1">Company / Studio</label>
-<input className="w-full bg-transparent border-none p-0 text-lg text-primary" type="text" value="Verdant Vistas Design"/>
+<input className="w-full bg-transparent border-none p-0 text-lg text-primary" type="text" defaultValue="Verdant Vistas Design"/>
 </div>
 <div className="md:col-span-2 relative border-b border-outline/30 pb-2 transition-all group">
 <label className="block font-label text-[10px] uppercase tracking-[0.15em] text-on-surface-variant mb-1">Passionate Work Focus</label>
-<input className="w-full bg-transparent border-none p-0 text-lg" type="text" value="Restoring urban ecosystems through native flora and sustainable sanctuary design."/>
+<input className="w-full bg-transparent border-none p-0 text-lg" type="text" defaultValue="Restoring urban ecosystems through native flora and sustainable sanctuary design."/>
 </div>
 </div>
 </section>
@@ -206,16 +207,16 @@ export default function EditProfileBotanicalAtelier() {
 </div>
 </main>
 {/*  Footer  */}
-<footer className="bg-[#f0eee6] dark:bg-[#1b1c17] w-full border-t border-[#c2c8c0]/15">
+<footer className="bg-surface-container dark:bg-[#1b1c17] w-full border-t border-[#c2c8c0]/15">
 <div className="flex flex-col md:flex-row justify-between items-center px-12 py-16 gap-8 w-full max-w-screen-2xl mx-auto">
-<div className="text-xl font-serif text-[#163422] dark:text-[#ffe088]">Botanical Atelier</div>
+<div className="text-xl font-serif text-primary dark:text-secondary-fixed">Botanical Atelier</div>
 <div className="flex flex-wrap justify-center gap-8 font-manrope text-sm tracking-normal">
-<a className="text-[#424843] dark:text-[#c2c8c0] hover:text-[#163422] dark:hover:text-[#ffe088] transition-opacity opacity-80 hover:opacity-100" href="#">Our Story</a>
-<a className="text-[#424843] dark:text-[#c2c8c0] hover:text-[#163422] dark:hover:text-[#ffe088] transition-opacity opacity-80 hover:opacity-100" href="#">Privacy Policy</a>
-<a className="text-[#424843] dark:text-[#c2c8c0] hover:text-[#163422] dark:hover:text-[#ffe088] transition-opacity opacity-80 hover:opacity-100" href="#">Terms of Service</a>
-<a className="text-[#424843] dark:text-[#c2c8c0] hover:text-[#163422] dark:hover:text-[#ffe088] transition-opacity opacity-80 hover:opacity-100" href="#">Contact Us</a>
+<a className="text-on-surface-variant dark:text-[#c2c8c0] hover:text-primary dark:hover:text-secondary-fixed transition-opacity opacity-80 hover:opacity-100" href="#">Our Story</a>
+<a className="text-on-surface-variant dark:text-[#c2c8c0] hover:text-primary dark:hover:text-secondary-fixed transition-opacity opacity-80 hover:opacity-100" href="#">Privacy Policy</a>
+<a className="text-on-surface-variant dark:text-[#c2c8c0] hover:text-primary dark:hover:text-secondary-fixed transition-opacity opacity-80 hover:opacity-100" href="#">Terms of Service</a>
+<a className="text-on-surface-variant dark:text-[#c2c8c0] hover:text-primary dark:hover:text-secondary-fixed transition-opacity opacity-80 hover:opacity-100" href="#">Contact Us</a>
 </div>
-<div className="text-[#424843] dark:text-[#c2c8c0] font-manrope text-sm">
+<div className="text-on-surface-variant dark:text-[#c2c8c0] font-manrope text-sm">
                 © 2024 Botanical Atelier Matrimony. All rights reserved.
             </div>
 </div>
@@ -231,3 +232,4 @@ export default function EditProfileBotanicalAtelier() {
     </>
   );
 }
+
