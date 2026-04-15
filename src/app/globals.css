@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@config "../../tailwind.config.ts";
 
 :root {
   --background: #ffffff;
@@ -19,8 +20,172 @@
   }
 }
 
+/* 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+*/
+
+
+/* Styles from all_profiles_botanical_atelier */
+.material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 24
+    }
+.botanical-pattern {
+    background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuDVHK8532ExP-GFnKMWsupnls-2PMo0LT8XLWMPb8JFpcJXrjY4fgWadnAtK-6YQAidoLsb8qS2ngxw6ZB5k4VW5JRjgKSvDjjpR5g6ExyXfkiSydNPag5UmvoUA9yQv3Qf_dRSsAwQUSSHiWYlOAHR-Rn03-D0scSU1uKPSK8IvfO77jD29lUbNNwejGcgREjFNjC0CoRP9Hb38OW-Zw898DEbxLXnycZILDEjf0ZBeFNbAKVA00gJ1DXbroDJBfwdp08kNt1_-Qc);
+    background-repeat: repeat;
+    background-size: 400px
+    }
+.glass-nav {
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px)
+    }
+/* Styles from edit_profile_botanical_atelier */
+body {
+    background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuCp5Q0bzmTreKJH5Oy4cTmLMGqQNvuGstcTvp6tm0LG4LJ31KqFI7ih3evLRWed74GgcswwXCFFvUpLCCSoGSv7d7xYr7Q-Rx9TO0Uc_ju28YV16hI8E-ePBZUJgt7dyb_bBds2XtuBNwWG7JcWbt653bSno2Tr3dtnBMXYNw5kczzxsnPjg-TNlD84KkNqwUhPxYAGr1niUD7Krx3AVE9uwGFvAnKjyQyK6C-gPD3x-BHOVMWxEoAY2rJFfbYLU06lh-wINYe0d00);
+    background-repeat: repeat;
+    background-size: 400px;
+    background-attachment: fixed
+    }
+.bg-overlay {
+    background-color: rgba(251, 249, 241, 0.96)
+    }
+.material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 24;
+    vertical-align: middle
+    }
+input:focus, textarea:focus {
+    outline: none;
+    border-bottom-color: #735c00 !important
+    }
+.bloom-shadow {
+    box-shadow: 0 20px 40px rgba(22, 52, 34, 0.06)
+    }
+/* Styles from edit_profile_botanical_atelier_refined */
+body {
+    background-color: #FBF9F1;
+    position: relative
+    }
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://lh3.googleusercontent.com/aida/ADBb0ugdNpDoy6O5KkAn9qjazi7NKSiQ7Qr1Aup9MyJ9diYVdqlj3TqFeSNdDOd13zvZAxx_d81jNu8VB3JEB5TwJOdkRahFufVa4Lmq2vxgmndYyNmJsg9qBSDGy5o9fBjrZpqmDIrZnmIB36OCtDN3OD8PLkKv3QExJZna0VHtpmIPpQwdimjI9W7TI4tkIV8JaQgXrFpy0Xqg2teMSQG_aR6jMUv9SndNBxtFDffZ5gp85SUDQWPJ8wWhMGAl5asNba__1qkCYIYIhA);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.12;
+    z-index: -1;
+    pointer-events: none
+    }
+.material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 24;
+    vertical-align: middle
+    }
+input:focus, textarea:focus {
+    outline: none;
+    border-bottom-color: #2D4B37 !important
+    }
+.atelier-card {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(228, 227, 219, 0.5);
+    box-shadow: 0 12px 30px rgba(45, 75, 55, 0.04)
+    }
+/* Styles from home_botanical_atelier */
+.material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24
+    }
+.botanical-bg {
+    background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuAUk7QEqqdX0122fkDvmbwiKTGSQKDtTWhgYrzq8dw3IfEsC2uvwl4cAecpTGggi5bM8IPcUjLDJY9De9ln3BwmFADrEic-uIbl1SBVHdndBb7vqzRqi1uf5JIpe_VAu0peCvkjhVeCzGsGXawUhuNrBIpH-aTzD3np78CjJMsq3f94f-gnY3MwzvzaRu2Oq6C6Nwvmd1_cRFvS_9PEgVYN9WOJ5sUMRLu2s8AYfjQk8KId4iAdf-5sAnq7LDT6Cf7Hi3GzXD_dTKg);
+    background-repeat: repeat;
+    background-size: 400px
+    }
+.hero-mask {
+    mask-image: radial-gradient(circle, black 50%, transparent 100%)
+    }
+.bloom-shadow {
+    box-shadow: 0 20px 40px rgba(22, 52, 34, 0.06)
+    }
+/* Styles from login_botanical_atelier */
+body {
+    font-family: "Manrope", sans-serif
+    }
+.font-noto-serif {
+    font-family: "Noto Serif", serif
+    }
+.material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 24
+    }
+.bg-pattern {
+    background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuBV5d8kd_H-fk00wJGDTQdQ55lkWbD9Xp1t2C-S_Vd6tq4jIroh9FM_3axun-CnUqNKVsBIvnrlc7WTzlgCLvDPrsqwHGgbPz1KYn05KPgB4aQFER2ptiRSXzkaZKPI3DhYjijpl05_4PFgUXLNLNun48GspjjILq4wu9KQL6ETfF1cFJLgJWXYPBXfNGkssvHBXHswvLTqg0Lbywl3qjbqTj0JZcwRspoTIeiy1LBNq9aR8kaEX2uXbwgw9J0sLWC-vqw22ieYGg0);
+    background-repeat: repeat;
+    background-size: 400px
+    }
+/* Styles from profile_details_botanical_atelier */
+.material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 24
+    }
+.botanical-bg {
+    background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuDvXF7JSPVXoCtfTVxEMt8AYRbFh56-USePKryY_JKDYt-3teIv420g1mvPkgEe2M3E66A6V_FAjVEXwJKIqn-i6rAatiu97KzL9ZWtD6YaNXOfZ2PxkK8LrhuzQXLZahQmBHKRjg-DyxaoXhKIg3n1kWjYPAonDxnUHtLh9irKQuZId_s3_cfKfqwyqHLIabf-paBEo6PerkbmF-6vCQYHxO4ybQnfXyb1mkyPVGajeiWjAC_60mDjaVAKNpoGrXlFBQCq4swSeyk);
+    background-size: 600px;
+    background-repeat: repeat;
+    background-blend-mode: overlay
+    }
+.floral-reveal-mask-1 {
+    border-radius: 6rem 1rem 6rem 1rem
+    }
+.floral-reveal-mask-2 {
+    border-radius: 1rem 6rem 1rem 6rem
+    }
+/* Styles from profile_details_botanical_atelier_refined */
+.material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 24
+    }
+.botanical-pattern-bg {
+    background-image: linear-gradient(rgba(251, 249, 241, 0.95), rgba(251, 249, 241, 0.95)), url(https://lh3.googleusercontent.com/aida/ADBb0ugdNpDoy6O5KkAn9qjazi7NKSiQ7Qr1Aup9MyJ9diYVdqlj3TqFeSNdDOd13zvZAxx_d81jNu8VB3JEB5TwJOdkRahFufVa4Lmq2vxgmndYyNmJsg9qBSDGy5o9fBjrZpqmDIrZnmIB36OCtDN3OD8PLkKv3QExJZna0VHtpmIPpQwdimjI9W7TI4tkIV8JaQgXrFpy0Xqg2teMSQG_aR6jMUv9SndNBxtFDffZ5gp85SUDQWPJ8wWhMGAl5asNba__1qkCYIYIhA);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed
+    }
+.floral-mask-1 {
+    border-radius: 4rem 1rem 4rem 1rem
+    }
+.floral-mask-2 {
+    border-radius: 1rem 4rem 1rem 4rem
+    }
+.text-balance {
+    text-wrap: balance
+    }
+/* Styles from sign_up_botanical_atelier */
+.material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24
+    }
+.botanical-bg {
+    background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuBsW4rZAZ8LUortUqfCETV908G4OGewGhBv8QzMEXx4BT--4NVacz6-iSfbwBuwwMwipP5xJLynSLGUMxsxmaLwp9BI5_ONqmJXbWEDoexPLe2Yc0v5nln2uGdvTyhu3s4F_Xhzzzb8nIBS93QoL2fAVX1rt-_sEgdKC-Ffu2FlgFNWXX10xOGF4oUxVDHZkZQ4QeQO2ASX2HSZ7Y__3PYQGQXj3QyyEwpmH_zAKE_f_572ajIU-Orbmk37DTNORqHpIOEf4Fs_KjU);
+    background-blend-mode: overlay;
+    background-repeat: repeat
+    }
+/* Styles from user_settings_botanical_atelier */
+body {
+    font-family: "Manrope", sans-serif
+    }
+.font-noto-serif {
+    font-family: "Noto Serif", serif
+    }
+.bg-pattern {
+    background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuBXV22Y4f3Ab9cqGTEcQzuNeoe_R3cbdkZuKYPBKqQR1hpsC9JlwdrVb3z6SqwutCk2UIb9SOyHIPcPiFbgCZWkDOQo1Uvrs1CPbSaPeqi4Tcz86rw_1o3HKSyGN28rCbLnOa4O5WbOXyVffiOEfW1ERVcWatvFeUCzk-OBYceSQH-AzC9iTJyQyW2hnNGeGcL85d8rRc33F1G7HKa9_Nean5ph_sxa1r6ezPil3em-VaT1v8NB5whkOogp4taS0Ecf0gRqTj6qgMM);
+    background-size: 400px;
+    background-repeat: repeat;
+    opacity: 0.04
+    }
+.bloom-shadow {
+    box-shadow: 0 20px 40px rgba(22, 52, 34, 0.06)
+    }
+.material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 24
+    }
